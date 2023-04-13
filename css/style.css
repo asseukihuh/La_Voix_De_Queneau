@@ -1,0 +1,398 @@
+/* Style général */
+#infs {
+    margin: 0;
+	font-size: 36px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 200px; /* Hauteur du conteneur */
+    justify-content: center;
+}
+
+.Logo {
+    margin-top: 1%;
+    width: 25%;
+
+}
+
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px;
+    border-top: 0.00005px solid #ececec;
+    border-bottom: 0.00005px solid #dadada;;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+main {
+	padding: 20px;
+}
+
+/* Style de la section radio */
+
+.radio {
+	background-color: #ececec;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+	color: #000000;
+}
+
+.stations {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.station {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.station:last-of-type {
+	margin-right: 0;
+}
+
+label {
+	margin-left: 10px;
+	font-size: 18px;
+	color: #000000;
+}
+
+audio {
+	margin-top: 20px;
+	width: 100%;
+}
+
+/* Style de la section images */
+
+.images {
+	background-color: #1f1f1f;
+	padding: 20px;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #b3b3b3;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Style du footer */
+
+footer {
+	background-color: #1f1f1f;
+	color: #b3b3b3;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+/* Style pour ressembler à Spotify */
+
+.radio {
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #ececec;
+}
+
+.stations {
+	background-color: #ececec;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.station {
+	background-color: #ececec;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	transition: all 0.2s ease-in-out;
+}
+
+.station:hover {
+	background-color: #0854e8;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	transform: translateY(-2px);
+}
+
+.station:focus-within {
+	background-color: #0854e8;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+	transform: translateY(-2px);
+}
+
+label {
+	color: #b3b3b3;
+}
+
+audio {
+	background-color: #ececec;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.images {
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.image:hover {
+	transform: scale(1.05);
+}
+
+footer {
+	font-size: 12px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #0854e8;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav {
+      margin-top: 10px;
+    }
+    
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  .border-button {
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    
+    transform: translate(0, -50%);
+  }
+  .border-button2 {
+    padding: 10px 20px;
+    border: 2px solid #ffd900;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffd900;
+    color: #000000;
+    
+    transform: translate(0, -50%);
+  }
+  
+  .border-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .border-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .border-button2:hover {
+    background-color: #eccc3b;
+    color: #0f0f0f;
+  }
+
+  .menubtn {
+    padding: 20px 20px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+
+  #IDK {
+    padding: 20px 20px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+
+  .howw {
+    background-color: #f3f8ff;
+  }
+  
+  .containereuh {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100vh;
+    }
+  
+  .box1 {
+    width: 25%;
+    
+    background-color: #f3f8ff;
+    }
+  
+  .box2 {
+    width: 50%;
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    }
+  .box3 {
+    width: 25%;
+    
+    background-color: #f3f8ff;
+    }
+
+    .helo {
+        font-size: 40px;
+        margin-top: 0;
+        color: #000000;
+        font-weight: bolder;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .combu {
+        text-align: center;
+    }
+
+    .wtf {
+        width: 90%;
+    }
+
+    .helo:hover {
+        text-decoration-line: underline;
+        color: black;
+      }
+  
+p {
+    font-size: 18px;
+}
+
+.aud {
+    color: #000000;
+}
+
+.aud:hover {
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.queneauenfeu {
+    text-align: center;
+    padding-left: 3%;
+}
+
+.quen:hover {
+    transform: scale(1.05);
+}
+
+.quen {
+    background-color: rgba(0, 128, 0, 0);
+    transition: transform .2s; /* Animation */
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+.okk {
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 6%;
+    color: #0854e8;
+}
+
+.okk:hover {
+    color: #0854e8;
+    text-decoration-line: underline;
+}
+
+.audi {
+  color: #000000;
+  padding-bottom: 50%;
+}
+
+.audi:hover {
+  text-decoration-line: underline;
+  color: #0854e8;
+}
+
+.heloo {
+  font-size: 30px;
+  margin-top: 0;
+  color: #0854e8;
+  font-weight: 400;
+  margin-left: 6%;
+  margin-right: 6%;
+}
