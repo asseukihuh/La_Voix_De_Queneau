@@ -1,3 +1,3 @@
 Juste un projet au lycée simple
 
-lien: https://lavoixdequeneau-ens-svt.netlify.app/
+lien: <a href="https://lavoixdequeneau-ens-svt.netlify.app/">fuck l'ainé gros</a>
