@@ -9,5 +9,9 @@ Ce site web est une reproduction du site La Voix Du Nord renommé en Le Voix De 
 - 🖼️ Images modifiées se rapprochant du style web de La Voix Du Nord
 - 🔘 Boutons fictifs pour augmenter l'illusion du site
 
+## Comparaison avec La Voix Du Nord
+
+
+
 
 [Cliquez ici pour accéder au site](https://lavoixdequeneau-ens-svt.netlify.app)
