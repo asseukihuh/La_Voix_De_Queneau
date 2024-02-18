@@ -11,7 +11,8 @@ Ce site web est une reproduction du site La Voix Du Nord renommé en Le Voix De 
 
 ## Comparaison avec La Voix Du Nord
 
-![desc](Queneau.jpg)
+![desc](lvdn.png)
+![desc](lvdqn.png)
 
 
 [Cliquez ici pour accéder au site](https://lavoixdequeneau-ens-svt.netlify.app)
