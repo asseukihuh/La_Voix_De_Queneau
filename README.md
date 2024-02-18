@@ -4,7 +4,10 @@ Ce site web est une reproduction du site La Voix Du Nord renommé en Le Voix De 
 
 ## De quoi est fait le site
 
-Le but était de recréer le site web de la voix du nord (ici la voix de queneau) en y ajoutant des touches personelles et en y implémentant notre devoir de SVT.
+- Audios intégrés grâce a un script JS
+- Fichier CSS pour rendre le site plus ressemblant à La Voix Du Nord
+- Images modifiées se rapprochant du style web de La Voix Du Nord
+- Boutons fictifs pour augmenter l'illusion du site
 
 
 [Cliquez ici pour accéder au site](https://lavoixdequeneau-ens-svt.netlify.app)
